@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0129B5D9824CC042A46B0BDE /* Pods_PopTipDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CB48CFED34A3FFE5765180 /* Pods_PopTipDemoTests.framework */; };
-		46E63FE32DBFED997F88E554 /* Pods_PopTipDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F60A1D9B7FACF5C9FD4598 /* Pods_PopTipDemo.framework */; };
 		65B37B8C1A16099F00C46D11 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B37B8B1A16099F00C46D11 /* Launch Screen.xib */; };
 		65CC5729196FF827001B189F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CC5728196FF827001B189F /* Foundation.framework */; };
 		65CC572B196FF827001B189F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CC572A196FF827001B189F /* CoreGraphics.framework */; };
@@ -24,6 +22,8 @@
 		65CC574A196FF827001B189F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CC572C196FF827001B189F /* UIKit.framework */; };
 		65CC5752196FF827001B189F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65CC5750196FF827001B189F /* InfoPlist.strings */; };
 		65CC5754196FF827001B189F /* PopTipDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CC5753196FF827001B189F /* PopTipDemoTests.m */; };
+		E55080DF3480AB7DC8EC81EC /* Pods_PopTipDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7DA6267A1CA77E008441F1 /* Pods_PopTipDemoTests.framework */; };
+		FB70F5B8C9332F7FD466C4E8 /* Pods_PopTipDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1AF01D9149704774C55C36 /* Pods_PopTipDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08CB48CFED34A3FFE5765180 /* Pods_PopTipDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopTipDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F45ED373A6EAAE12D12FCE1 /* Pods-PopTipDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTipDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopTipDemo/Pods-PopTipDemo.release.xcconfig"; sourceTree = "<group>"; };
-		59550C8E7F4B0B2D105644A6 /* Pods-PopTipDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTipDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopTipDemoTests/Pods-PopTipDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C04DF571D8C15017CCBC289 /* Pods-PopTipDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTipDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopTipDemoTests/Pods-PopTipDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A88E2F2F7BFABB1B6165BBE /* Pods-PopTipDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTipDemo.release.xcconfig"; path = "Target Support Files/Pods-PopTipDemo/Pods-PopTipDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0B7DA6267A1CA77E008441F1 /* Pods_PopTipDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopTipDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6544DF34C1794E27009DB14D /* Pods-PopTipDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTipDemo.debug.xcconfig"; path = "Target Support Files/Pods-PopTipDemo/Pods-PopTipDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		65B37B8B1A16099F00C46D11 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "../Launch Screen.xib"; sourceTree = "<group>"; };
 		65CC5725196FF827001B189F /* PopTipDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopTipDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CC5728196FF827001B189F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,8 +60,9 @@
 		65CC574F196FF827001B189F /* PopTipDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopTipDemoTests-Info.plist"; sourceTree = "<group>"; };
 		65CC5751196FF827001B189F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65CC5753196FF827001B189F /* PopTipDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTipDemoTests.m; sourceTree = "<group>"; };
-		78F60A1D9B7FACF5C9FD4598 /* Pods_PopTipDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopTipDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA9F41609141A6C88174D507 /* Pods-PopTipDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTipDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopTipDemo/Pods-PopTipDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C571B10BE8101982416CB29A /* Pods-PopTipDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTipDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PopTipDemoTests/Pods-PopTipDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D40D06A46281B7A8FDF11888 /* Pods-PopTipDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopTipDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PopTipDemoTests/Pods-PopTipDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD1AF01D9149704774C55C36 /* Pods_PopTipDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopTipDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 				65CC572B196FF827001B189F /* CoreGraphics.framework in Frameworks */,
 				65CC572D196FF827001B189F /* UIKit.framework in Frameworks */,
 				65CC5729196FF827001B189F /* Foundation.framework in Frameworks */,
-				46E63FE32DBFED997F88E554 /* Pods_PopTipDemo.framework in Frameworks */,
+				FB70F5B8C9332F7FD466C4E8 /* Pods_PopTipDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 				65CC5748196FF827001B189F /* XCTest.framework in Frameworks */,
 				65CC574A196FF827001B189F /* UIKit.framework in Frameworks */,
 				65CC5749196FF827001B189F /* Foundation.framework in Frameworks */,
-				0129B5D9824CC042A46B0BDE /* Pods_PopTipDemoTests.framework in Frameworks */,
+				E55080DF3480AB7DC8EC81EC /* Pods_PopTipDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +108,7 @@
 				65CC574D196FF827001B189F /* PopTipDemoTests */,
 				65CC5727196FF827001B189F /* Frameworks */,
 				65CC5726196FF827001B189F /* Products */,
-				F521037DA6E9F53D6AD46CC1 /* Pods */,
+				CDCB036F7B2ED543C681D1ED /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -131,8 +131,8 @@
 				65CC572A196FF827001B189F /* CoreGraphics.framework */,
 				65CC572C196FF827001B189F /* UIKit.framework */,
 				65CC5747196FF827001B189F /* XCTest.framework */,
-				08CB48CFED34A3FFE5765180 /* Pods_PopTipDemoTests.framework */,
-				78F60A1D9B7FACF5C9FD4598 /* Pods_PopTipDemo.framework */,
+				DD1AF01D9149704774C55C36 /* Pods_PopTipDemo.framework */,
+				0B7DA6267A1CA77E008441F1 /* Pods_PopTipDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,15 +179,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F521037DA6E9F53D6AD46CC1 /* Pods */ = {
+		CDCB036F7B2ED543C681D1ED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				59550C8E7F4B0B2D105644A6 /* Pods-PopTipDemoTests.debug.xcconfig */,
-				5C04DF571D8C15017CCBC289 /* Pods-PopTipDemoTests.release.xcconfig */,
-				CA9F41609141A6C88174D507 /* Pods-PopTipDemo.debug.xcconfig */,
-				3F45ED373A6EAAE12D12FCE1 /* Pods-PopTipDemo.release.xcconfig */,
+				6544DF34C1794E27009DB14D /* Pods-PopTipDemo.debug.xcconfig */,
+				0A88E2F2F7BFABB1B6165BBE /* Pods-PopTipDemo.release.xcconfig */,
+				C571B10BE8101982416CB29A /* Pods-PopTipDemoTests.debug.xcconfig */,
+				D40D06A46281B7A8FDF11888 /* Pods-PopTipDemoTests.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,13 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65CC5757196FF827001B189F /* Build configuration list for PBXNativeTarget "PopTipDemo" */;
 			buildPhases = (
-				C58EDF7A07DC03ED6301240F /* Check Pods Manifest.lock */,
+				CFA29CCF25D296CF433F3855 /* [CP] Check Pods Manifest.lock */,
 				65CC5721196FF827001B189F /* Sources */,
 				65CC5722196FF827001B189F /* Frameworks */,
 				65CC5723196FF827001B189F /* Resources */,
 				70C61442D9724946A074A875 /* Warn for TODO and FIXME comments */,
-				C6836486F72DEF6EBF171AEB /* Embed Pods Frameworks */,
-				49836BDFD15658EE84452DD6 /* Copy Pods Resources */,
+				5A08C9B84B1E6A3C6FF92173 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,12 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65CC575A196FF827001B189F /* Build configuration list for PBXNativeTarget "PopTipDemoTests" */;
 			buildPhases = (
-				FB9B1B1D22C14998970C7DCC /* Check Pods Manifest.lock */,
+				F70D26F2DCDAEDF770760DC9 /* [CP] Check Pods Manifest.lock */,
 				65CC5742196FF827001B189F /* Sources */,
 				65CC5743196FF827001B189F /* Frameworks */,
 				65CC5744196FF827001B189F /* Resources */,
-				4DD15A1A43534356ADF3B101 /* Copy Pods Resources */,
-				0EB9B09207E4C16FBDD39555 /* Embed Pods Frameworks */,
+				5844D272BE1B5A8076164FF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +253,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -292,49 +291,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0EB9B09207E4C16FBDD39555 /* Embed Pods Frameworks */ = {
+		5844D272BE1B5A8076164FF8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopTipDemoTests/Pods-PopTipDemoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
+				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopTipDemoTests/Pods-PopTipDemoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopTipDemoTests/Pods-PopTipDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		49836BDFD15658EE84452DD6 /* Copy Pods Resources */ = {
+		5A08C9B84B1E6A3C6FF92173 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopTipDemo/Pods-PopTipDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMPopTip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopTipDemo/Pods-PopTipDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4DD15A1A43534356ADF3B101 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopTipDemoTests/Pods-PopTipDemoTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopTipDemo/Pods-PopTipDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		70C61442D9724946A074A875 /* Warn for TODO and FIXME comments */ = {
@@ -351,49 +349,48 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
-		C58EDF7A07DC03ED6301240F /* Check Pods Manifest.lock */ = {
+		CFA29CCF25D296CF433F3855 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopTipDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C6836486F72DEF6EBF171AEB /* Embed Pods Frameworks */ = {
+		F70D26F2DCDAEDF770760DC9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopTipDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopTipDemo/Pods-PopTipDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FB9B1B1D22C14998970C7DCC /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -558,14 +555,14 @@
 		};
 		65CC5758196FF827001B189F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA9F41609141A6C88174D507 /* Pods-PopTipDemo.debug.xcconfig */;
+			baseConfigurationReference = 6544DF34C1794E27009DB14D /* Pods-PopTipDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopTipDemo/PopTipDemo-Prefix.pch";
 				INFOPLIST_FILE = "PopTipDemo/PopTipDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -574,14 +571,14 @@
 		};
 		65CC5759196FF827001B189F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F45ED373A6EAAE12D12FCE1 /* Pods-PopTipDemo.release.xcconfig */;
+			baseConfigurationReference = 0A88E2F2F7BFABB1B6165BBE /* Pods-PopTipDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopTipDemo/PopTipDemo-Prefix.pch";
 				INFOPLIST_FILE = "PopTipDemo/PopTipDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -590,7 +587,7 @@
 		};
 		65CC575B196FF827001B189F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59550C8E7F4B0B2D105644A6 /* Pods-PopTipDemoTests.debug.xcconfig */;
+			baseConfigurationReference = C571B10BE8101982416CB29A /* Pods-PopTipDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopTipDemo.app/PopTipDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -616,7 +613,7 @@
 		};
 		65CC575C196FF827001B189F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C04DF571D8C15017CCBC289 /* Pods-PopTipDemoTests.release.xcconfig */;
+			baseConfigurationReference = D40D06A46281B7A8FDF11888 /* Pods-PopTipDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopTipDemo.app/PopTipDemo";
 				FRAMEWORK_SEARCH_PATHS = (
